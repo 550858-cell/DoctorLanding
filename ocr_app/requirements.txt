@@ -1,0 +1,13 @@
+# SimpleOCR — dependencies
+# Python 3.11+ , Windows 10 build 1809+ / Windows 11
+
+PyQt6==6.7.1
+winsdk==1.0.0b10
+keyboard==0.13.5
+mss==9.0.1
+Pillow==10.4.0
+pywin32==306
+pyperclip==1.9.0
+
+# Build only
+pyinstaller==6.10.0
