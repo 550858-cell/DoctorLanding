@@ -13,7 +13,7 @@ export function FAQ({ items }: { items: { q: string; a: string }[] }) {
     <Section id="faq" className="bg-white">
       <SectionHead
         eyebrow="Вопросы"
-        title="Частые вопросы"
+        title="Часто задаваемые вопросы"
         subtitle="Если не нашли ответ — напишите нам, ответим за 30 минут."
       />
       <Reveal>
