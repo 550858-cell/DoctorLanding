@@ -1,5 +1,6 @@
 import { Hero } from "@/components/sections/Hero";
 import { PriceCompare } from "@/components/sections/PriceCompare";
+import { PriceList } from "@/components/sections/PriceList";
 import { ServicesGrid } from "@/components/sections/ServicesGrid";
 import { HowItWorks } from "@/components/sections/HowItWorks";
 import { WhatsIncluded } from "@/components/sections/WhatsIncluded";
@@ -19,6 +20,7 @@ export default function Home() {
     <>
       <Hero />
       <PriceCompare />
+      <PriceList />
       <ServicesGrid />
       <HowItWorks />
       <WhatsIncluded />
